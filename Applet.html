@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Applets </title>
+		<meta charset="UTF-8"/> 
+		<link href="Applet.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<h1>
+		
+			<img src="http://cdn.androlib.com/appicon/app-qmBiz.cs.png " alt="programming" width="64" height="64"/>
+			 My Java Applets
+			<img src="http://cdn.androlib.com/appicon/app-qmBiz.cs.png " alt="programming" width="64" height="64"/>
+		
+		</h1>
+		<div class="wrapper">
+			<div class="games"> 
+				<h3>Games </h3>
+				<div id="games1"> 
+				BallCraze <br>
+				<object type="application/x-java-applet" height="300" width="300">
+					<param name="code" value="BallCraze.class" />
+					<param name="archive" value="BallGame.jar" />
+					<param name="java_arguments" value="-Djnlp.packEnabled=true"/>
+				</object>
+				</div>
+				<div id="games2">
+				TicTacToe <br> 
+				<object type="application/x-java-applet" height="250" width="250">
+					<param name="code" value="TicTacToe.class" />
+					<param name="archive" value="TicTacToeGame.jar" />
+					<param name="java_arguments" value="-Djnlp.packEnabled=true"/>
+				</object>
+                </div>
+			</div>
+			<div class="fractals"> 
+				<h3>Fractals</h3>
+				<div id="fractal1">  
+				Sierpinski Carpet <br> 
+				<object type="application/x-java-applet" height="270" width="270">
+					<param name="code" value="SierpinskiCarpet.class" />
+					<param name="archive" value="SierpinskiFractal.jar" />
+					<param name="java_arguments" value="-Djnlp.packEnabled=true"/>
+				</object>
+				</div>
+				<div id="fractal2">
+				Wave Fractal <br> 
+				<object type="application/x-java-applet" height="270" width="270">
+					<param name="code" value="WaveFractal.class" />
+					<param name="archive" value="WaveFractal.jar" />
+					<param name="java_arguments" value="-Djnlp.packEnabled=true"/>
+				</object>
+				</div>
+			</div>
+		</div>
+		<div id="contact">&copy; 2013 Huang Xing <br /> <a href="mailto:yyxing2006@yahoo.com"> Email Me </a> </div>
+	</body>
+</html> 
