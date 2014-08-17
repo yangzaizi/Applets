@@ -1,0 +1,38 @@
+body{margin; 5px auto 5px auto;
+		       text-align: center;
+		       background-color: #f8f8f8;
+			}
+		
+		  div#games1, div#games2, div#fractal1, dive#fractal2{ float: left; margin: 10px;}
+
+		  div#contact{float:left; margin: 15px; clear:both;}
+ 
+		  img{display: inline; margin: 10px;}
+		  
+		  h1{border-top: solid 2px #7b68ee;
+		     border-bottom: solid 1px #7b68ee;
+		     width: 500px;
+		     margin: 1px auto;
+		     padding: 5px;
+		     border-top-right-radius: 15px;
+		     border-bottom-right-radius: 15px;
+		     border-bottom-left-radius: 15px;
+		     border-top-left-radius: 15px;
+		  }
+
+		  div.games, div.fractals{
+			 border: 2px double #87cefa;
+			 border-radius: 10px;
+			 box-shadow: inset 1px 1px 10px #b0e0e6;
+			 float: left; width:590px;
+			 }
+			 
+		  div.games{margin-left: 25px;}
+		  
+		  div.fractals{margin-left: 25px;}
+		  h2 {
+			 font-family: Arial; 
+			 text-transform: uppercase; 
+			 text-decoration: underline; 
+			 color: #4169e1;
+			}
